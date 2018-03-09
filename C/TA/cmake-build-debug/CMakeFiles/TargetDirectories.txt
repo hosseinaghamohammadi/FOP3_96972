@@ -1,0 +1,3 @@
+/home/hossein/Downloads/FOP 96972/C/Git/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hossein/Downloads/FOP 96972/C/Git/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hossein/Downloads/FOP 96972/C/Git/project/cmake-build-debug/CMakeFiles/project.dir
