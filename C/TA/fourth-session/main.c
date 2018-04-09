@@ -27,11 +27,11 @@ int main(){
             fallSeen = 1;
         }
         if ((fallingFirst && raiseSeen && previous > income) || (raisingFirst && fallSeen && previous < income)){
-//            printf(income);
+            printf(income);
             no = 1;
         }
         if ((fallingFirst && raiseSeen && previous == income) || (raisingFirst && fallSeen && previous == income)){
-//            printf(income);
+            printf(income);
             no = 1;
         }
         previous = income;
@@ -149,19 +149,19 @@ int main(){
 //    }
 //    printf("%d", sum);
 
-//    int input = 0;
-//    scanf("%d", &input);
-//    int first = 0, second = 0, third = 0;
-//    int counter = 0;
-//    for (first = 1; first <= input/3; first++) {
-//        for(second = first; second <= (input-1)/2; second++){
-//            third = input - first - second;
-//            if (third >= second && first + second > third){
-//                counter++;
-//            }
-//        }
-//    }
-//    printf("%d\n", counter);
+    int input = 0;
+    scanf("%d", &input);
+    int first = 0, second = 0, third = 0;
+    int counter = 0;
+    for (first = 1; first <= input/3; first++) {
+        for(second = first; second <= (input-1)/2; second++){
+            third = input - first - second;
+            if (third >= second && first + second > third){
+                counter++;
+            }
+        }
+    }
+    printf("%d\n", counter);
 
 /* //    int numOfActivities = 0;
 //    char firstCode = '0', secondCode = '0', thirdCode = '0';
